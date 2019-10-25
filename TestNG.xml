@@ -1,0 +1,209 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="YoKart Suite" annotations="JDK" parallel="tests">
+   
+   <test name="VerifyAdminLogin">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminLogin"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerAddBrandsforAddProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerAddBrandsforAddProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminSellerApprovalForm">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminSellerApprovalForm"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddCategory">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddCategory"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddBrands">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddBrands"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddOptions">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddTags">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddTags"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddDurationLabel">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddDurationLabel"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddShippingCompanies">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddShippingCompanies"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddShippingCompanyUser">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddShippingCompanyUser"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddNewTax">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddNewTax"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminSettingsforAddProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminSettingsforAddProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddNewPhysicalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddNewPhysicalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddNewDigitalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddNewDigitalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminSettingsForSellerCreation">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminSettingsForSellerCreation"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminSettingsforSubscription">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminSettingsforSubscription"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerCreation">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerCreation"/>
+	 </classes>
+   </test>
+      
+   <test name="VerifySellerLogin">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerLogin"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerShopCreation">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerShopCreation"/>
+	 </classes>
+   </test>
+   
+    <test name="VerifyAdminAddNewPhysicalProductforSeller">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddNewPhysicalProductforSeller"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddNewDigitallProductforSeller">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddNewDigitallProductforSeller"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerAddNewPhysicalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerAddNewPhysicalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerAddNewDigitalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerAddNewDigitalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventorySetupforPhysicalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventorySetupforPhysicalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventorySpeicalOfferPriceforPhysicalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventorySpeicalOfferPriceforPhysicalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventoryVolumeDiscountforPhysicalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventoryVolumeDiscountforPhysicalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventorySetupforDigitalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventorySetupforDigitalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventorySpeicalOfferPriceforDigitalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventorySpeicalOfferPriceforDigitalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventoryVolumeDiscountforDigitalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventoryVolumeDiscountforDigitalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyUserRegistration">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserRegistration"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyUserLogin">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserLogin"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyUserAddToCart">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserAddToCart"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyUserBuyNow">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserBuyNow"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyUserCheckoutwithSpecialPrice">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserCheckoutwithSpecialPrice"/>
+	 </classes>
+   </test>
+   
+</suite>

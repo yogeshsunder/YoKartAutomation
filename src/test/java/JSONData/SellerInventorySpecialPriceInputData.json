@@ -1,0 +1,7 @@
+{
+	"Special Price Non-Numeric": "test",
+	"Special Price Less Than Allowed": "-1",
+	"Special Price More Than Allowed": "99999999999",
+	"Special Price Correct": "10",
+	"Second Price Correct": "15"
+}

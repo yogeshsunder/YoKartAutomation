@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="YoKart Suite" annotations="JDK" parallel="tests">
+
+	<test name="VerifyUserRegistration">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserRegistration"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyUserLogin">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserLogin"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyUserAddToCart">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserAddToCart"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyUserBuyNow">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserBuyNow"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyUserCheckoutwithSpecialPrice">
+	 <classes>
+	   <class name="com.TestCases.VerifyUserCheckoutwithSpecialPrice"/>
+	 </classes>
+   </test>
+   
+   </suite>

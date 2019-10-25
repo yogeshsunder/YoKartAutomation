@@ -1,0 +1,48 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="YoKart Suite" annotations="JDK" parallel="tests">
+   
+   <test name="VerifySellerAddBrandsforAddProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerAddBrandsforAddProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminSellerApprovalForm">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminSellerApprovalForm"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddCategory">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddCategory"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddBrands">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddBrands"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddOptions">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddOptions"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddTags">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddTags"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifyAdminAddDurationLabel">
+	 <classes>
+	   <class name="com.TestCases.VerifyAdminAddDurationLabel"/>
+	 </classes>
+   </test>
+     
+   
+</suite>

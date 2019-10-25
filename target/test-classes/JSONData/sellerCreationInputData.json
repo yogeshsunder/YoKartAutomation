@@ -1,0 +1,21 @@
+{
+        "MailId": "yogesh441@dummyid.com",
+        "YourName": "Yogesh",
+        "UsernameForRegistrationDetails": "yogesh441",
+        "PasswordForRegistrationDetails": "Test@123",
+        "ConfirmPasswordforRegistrationDetails": "Test@123",
+        "BusinessName": "Yogesh",
+        "TEXT": "Yogesh",
+        "TEXTAREA": "Yogesh",
+        "TIME": "4:10",
+        "Your Email Invalid": "test",
+        "Your Name Empty": "",
+        "Username Starts Numeric": "1",
+        "Username Less Than Allowed": "t",
+        "Username More Than Allowed": "testingisgreategoingon",
+        "Email Empty": "",
+        "Password Less Than Allowed": "test",
+        "Confirm Password Different": "test",
+        "User Name Wrong": "test",
+        "Password Wrong": "test"
+}

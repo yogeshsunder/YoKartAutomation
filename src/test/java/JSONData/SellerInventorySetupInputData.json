@@ -1,0 +1,23 @@
+{
+	"Price Non-Numeric": "Test",
+	"Price More than Allowed": "99999999999",
+	"Price Less than Allowed": "9",
+	"Price Correct": "100",
+	"Quantity Non-Numeric": "test",
+	"Quantity Less than Allowed": "-1",
+	"Quantity More than Allowed": "99999999999",
+	"Quantity Correct": "100",
+	"Minimum Quantity Non-Numeric": "test",
+	"Minimum Quantity Less than Allowed": "-1",
+	"Minimum Quantity More than Allowed": "99999999999",
+	"Minimum Quantity Correct": "1",
+	"Product SKU": "Test",
+	"Production Condition": "1",
+	"Product Display Title Empty": "",
+	"Product Display Title": "Test",
+	"Max Download Times Non-Numeric": "Test",
+	"Max Download Times Correct": "100",
+	"Non-Numeric Validity": "Test",
+	"Correct Validity": "100",
+	"Cost Price": "75"
+}

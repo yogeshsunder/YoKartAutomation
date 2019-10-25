@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [YoKart Suite]" parallel="tests">
+  <test thread-count="1" name="VerifySellerAddBrandsforAddProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifySellerAddBrandsforAddProduct">
+        <methods>
+          <include name="adminAddBrands"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySellerAddBrandsforAddProduct -->
+    </classes>
+  </test> <!-- VerifySellerAddBrandsforAddProduct(failed) -->
+  <test thread-count="1" name="VerifyAdminSellerApprovalForm(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyAdminSellerApprovalForm">
+        <methods>
+          <include name="tearDown"/>
+          <include name="sellerApprovalForm"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAdminSellerApprovalForm -->
+    </classes>
+  </test> <!-- VerifyAdminSellerApprovalForm(failed) -->
+  <test thread-count="1" name="VerifyAdminAddCategory(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyAdminAddCategory">
+        <methods>
+          <include name="adminAddCategory"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAdminAddCategory -->
+    </classes>
+  </test> <!-- VerifyAdminAddCategory(failed) -->
+  <test thread-count="1" name="VerifyAdminAddBrands(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyAdminAddBrands">
+        <methods>
+          <include name="adminAddBrands"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAdminAddBrands -->
+    </classes>
+  </test> <!-- VerifyAdminAddBrands(failed) -->
+  <test thread-count="1" name="VerifyAdminAddOptions(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyAdminAddOptions">
+        <methods>
+          <include name="tearDown"/>
+          <include name="adminAddOptions"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAdminAddOptions -->
+    </classes>
+  </test> <!-- VerifyAdminAddOptions(failed) -->
+  <test thread-count="1" name="VerifyAdminAddShippingCompanies(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyAdminAddShippingCompanies">
+        <methods>
+          <include name="tearDown"/>
+          <include name="adminAddShippingCompanies"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAdminAddShippingCompanies -->
+    </classes>
+  </test> <!-- VerifyAdminAddShippingCompanies(failed) -->
+  <test thread-count="1" name="VerifyAdminAddNewPhysicalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyAdminAddNewPhysicalProduct">
+        <methods>
+          <include name="tearDown"/>
+          <include name="adminAddNewProduct"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAdminAddNewPhysicalProduct -->
+    </classes>
+  </test> <!-- VerifyAdminAddNewPhysicalProduct(failed) -->
+  <test thread-count="1" name="VerifyAdminAddNewDigitalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyAdminAddNewDigitalProduct">
+        <methods>
+          <include name="adminAddNewProduct"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAdminAddNewDigitalProduct -->
+    </classes>
+  </test> <!-- VerifyAdminAddNewDigitalProduct(failed) -->
+  <test thread-count="1" name="VerifyAdminAddNewPhysicalProductforSeller(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyAdminAddNewPhysicalProductforSeller">
+        <methods>
+          <include name="adminAddNewProduct"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAdminAddNewPhysicalProductforSeller -->
+    </classes>
+  </test> <!-- VerifyAdminAddNewPhysicalProductforSeller(failed) -->
+  <test thread-count="1" name="VerifyAdminAddNewDigitallProductforSeller(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyAdminAddNewDigitallProductforSeller">
+        <methods>
+          <include name="tearDown"/>
+          <include name="adminAddNewProduct"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyAdminAddNewDigitallProductforSeller -->
+    </classes>
+  </test> <!-- VerifyAdminAddNewDigitallProductforSeller(failed) -->
+  <test thread-count="1" name="VerifySellerAddNewPhysicalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifySellerAddNewPhysicalProduct">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySellerAddNewProduct"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySellerAddNewPhysicalProduct -->
+    </classes>
+  </test> <!-- VerifySellerAddNewPhysicalProduct(failed) -->
+  <test thread-count="1" name="VerifySellerAddNewDigitalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifySellerAddNewDigitalProduct">
+        <methods>
+          <include name="verifySellerAddNewProduct"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySellerAddNewDigitalProduct -->
+    </classes>
+  </test> <!-- VerifySellerAddNewDigitalProduct(failed) -->
+  <test thread-count="1" name="VerifySellerInventorySetupforPhysicalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifySellerInventorySetupforPhysicalProduct">
+        <methods>
+          <include name="verifySellerAddNewProduct"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySellerInventorySetupforPhysicalProduct -->
+    </classes>
+  </test> <!-- VerifySellerInventorySetupforPhysicalProduct(failed) -->
+  <test thread-count="1" name="VerifySellerInventorySpeicalOfferPriceforPhysicalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifySellerInventorySpeicalOfferPriceforPhysicalProduct">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySellerAddSpecialOffer"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySellerInventorySpeicalOfferPriceforPhysicalProduct -->
+    </classes>
+  </test> <!-- VerifySellerInventorySpeicalOfferPriceforPhysicalProduct(failed) -->
+  <test thread-count="1" name="VerifySellerInventoryVolumeDiscountforPhysicalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifySellerInventoryVolumeDiscountforPhysicalProduct">
+        <methods>
+          <include name="verifySellerAddVoumeDiscount"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySellerInventoryVolumeDiscountforPhysicalProduct -->
+    </classes>
+  </test> <!-- VerifySellerInventoryVolumeDiscountforPhysicalProduct(failed) -->
+  <test thread-count="1" name="VerifySellerInventorySetupforDigitalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifySellerInventorySetupforDigitalProduct">
+        <methods>
+          <include name="verifySellerAddNewProduct"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySellerInventorySetupforDigitalProduct -->
+    </classes>
+  </test> <!-- VerifySellerInventorySetupforDigitalProduct(failed) -->
+  <test thread-count="1" name="VerifySellerInventorySpeicalOfferPriceforDigitalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifySellerInventorySpeicalOfferPriceforDigitalProduct">
+        <methods>
+          <include name="verifySellerAddSpecialOffer"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySellerInventorySpeicalOfferPriceforDigitalProduct -->
+    </classes>
+  </test> <!-- VerifySellerInventorySpeicalOfferPriceforDigitalProduct(failed) -->
+  <test thread-count="1" name="VerifySellerInventoryVolumeDiscountforDigitalProduct(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifySellerInventoryVolumeDiscountforDigitalProduct">
+        <methods>
+          <include name="verifySellerAddVoumeDiscount"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifySellerInventoryVolumeDiscountforDigitalProduct -->
+    </classes>
+  </test> <!-- VerifySellerInventoryVolumeDiscountforDigitalProduct(failed) -->
+  <test thread-count="1" name="VerifyUserRegistration(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyUserRegistration">
+        <methods>
+          <include name="tearDown"/>
+          <include name="userRegistration"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyUserRegistration -->
+    </classes>
+  </test> <!-- VerifyUserRegistration(failed) -->
+  <test thread-count="1" name="VerifyUserAddToCart(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyUserAddToCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="userSearchforAddedProduct"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyUserAddToCart -->
+    </classes>
+  </test> <!-- VerifyUserAddToCart(failed) -->
+  <test thread-count="1" name="VerifyUserBuyNow(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyUserBuyNow">
+        <methods>
+          <include name="userSearchforAddedProduct"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyUserBuyNow -->
+    </classes>
+  </test> <!-- VerifyUserBuyNow(failed) -->
+  <test thread-count="1" name="VerifyUserCheckoutwithSpecialPrice(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyUserCheckoutwithSpecialPrice">
+        <methods>
+          <include name="userCheckoutwithSpecialPrice"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyUserCheckoutwithSpecialPrice -->
+    </classes>
+  </test> <!-- VerifyUserCheckoutwithSpecialPrice(failed) -->
+  <test thread-count="1" name="VerifyUserCheckoutwithVolumeDiscount(failed)" parallel="tests">
+    <classes>
+      <class name="com.TestCases.VerifyUserCheckoutwithVolumeDiscount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="userCheckoutwithVolumeDiscount"/>
+        </methods>
+      </class> <!-- com.TestCases.VerifyUserCheckoutwithVolumeDiscount -->
+    </classes>
+  </test> <!-- VerifyUserCheckoutwithVolumeDiscount(failed) -->
+</suite> <!-- Failed suite [YoKart Suite] -->

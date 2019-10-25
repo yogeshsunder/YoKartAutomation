@@ -1,0 +1,14 @@
+{
+        "Billing Name": "Test",
+        "Address Line1": "Test",
+        "State": "1267",
+        "City": "Test",
+        "Non-Alphanumeric Postalcode": "@",
+        "Alphanumeric Postalcode": "Test",
+        "Non-valid Phone Number": "@@@",
+        "Valid Phone Number": "1234567890",
+        "Credit Card Number": "4242424242424242",
+        "Card Holder Name": "Test",
+        "Credit Card Expiry Year": "2025",
+        "CVV Security Code": "123"
+}

@@ -1,0 +1,13 @@
+{
+	"Minimum Quantity Non-Numeric": "Test",
+	"Minimum Quantity Less than Allowed": "-1",
+	"Minimum Quantity More than Allowed": "99999999999",
+	"Minimum Quantity Correct": "5",
+	"Minimum Quantity Correct Another": "10",
+	"Discount In Non-Numeric": "Test",
+	"Discount In Less than Allowed": "-1",
+	"Discount In More than Allowed": "101",
+	"Discount Correct": "10",
+	"Discount Correct Another": "20",
+	"Minimum Quantity More than Actual Quantity of Product": "101"
+}

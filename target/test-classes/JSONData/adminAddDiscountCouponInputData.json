@@ -1,0 +1,12 @@
+{
+        "Coupon Identifier": "Yogesh Test",
+        "Coupon Code Duplicate": "test",
+        "Select Discount Type for Product Purchase": "Product Purchase",
+        "Discount Value Non-Numeric": "test",
+        "Discount Value Correct": "30",
+        "Min Order Value non-numeric": "test",
+        "Min Order Value Correct": "10",
+        "Max Order Value Correct": "10000",
+        "Uses Per Coupon": "100",
+        "Uses Per Customer": "100"
+}

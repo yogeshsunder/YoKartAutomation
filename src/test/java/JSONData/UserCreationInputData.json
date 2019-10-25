@@ -1,0 +1,16 @@
+{
+	"Email Correct": "yogeshUser77@dummyid.com",
+	"Username Correct": "yogeshUser77",
+	"Name": "Yogesh",
+	"Username start with non-letter": "1234",
+	"Username non-Alphanumeric": "!@#$%^&*()_+=",
+	"Username Less": "tes",
+	"Username More": "test0123456789testing",
+	"Username Duplicate": "test",
+	"Email Invalid": "test",
+	"Email Duplicate": "test@dummyid.com",
+	"Password non-Alphanumeric": "testingisfun",
+	"Password Less than Allowed": "Test@1",
+	"Password Correct": "Test@1234",
+	"Confirm Password Differnt": "Test@1"
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="YoKart Suite" annotations="JDK" parallel="tests">
+
+	<test name="VerifySellerInventorySetupforPhysicalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventorySetupforPhysicalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventorySpeicalOfferPriceforPhysicalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventorySpeicalOfferPriceforPhysicalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventoryVolumeDiscountforPhysicalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventoryVolumeDiscountforPhysicalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventorySetupforDigitalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventorySetupforDigitalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventorySpeicalOfferPriceforDigitalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventorySpeicalOfferPriceforDigitalProduct"/>
+	 </classes>
+   </test>
+   
+   <test name="VerifySellerInventoryVolumeDiscountforDigitalProduct">
+	 <classes>
+	   <class name="com.TestCases.VerifySellerInventoryVolumeDiscountforDigitalProduct"/>
+	 </classes>
+   </test>
+   
+   </suite>
